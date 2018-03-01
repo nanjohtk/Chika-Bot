@@ -5,8 +5,8 @@ client.on('ready' , () => {
   console.log('I am ready!');
 });
 
-client.on('message, message => {
-  if (message.content === 'Chika') {
+client.on('message', message => {
+  if (message.content === 'chika' , 'Chika') {
     message.reply('cyka blyat');
     }
 });
